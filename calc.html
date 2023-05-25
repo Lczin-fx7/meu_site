@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>calculadora</title>
+    <style>
+        body{
+            background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 7%, rgba(0,255,255,1) 50%, rgba(2,0,36,1) 100%);
+            text-align: center;
+        }
+        h1{
+            color:aqua;
+        }
+        div{
+            color: #00ffff;
+        }
+        button{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #1f1f1f;
+            width: 150px;
+            height: 50px;
+            font-size:medium;
+            position: absolute;
+            top: 125%;
+            left: 89.6%;
+        }
+        a{
+            color:#00ffff
+        }
+        form{
+            background-color: #000000;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+            <fieldset>
+                <p></p>
+    <h1>
+        SOMANDO VALORES
+    </h1>
+    <input  type="number" name="txtn1" id="txtn1"> <h1>+</h1>                        
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="somar()">
+    <div id="res">
+        resultado
+    </div>
+    <button>
+        <a href="./index.html">Voltar para o inicio
+        </a>
+    </button>
+            </fieldset>
+    </form>
+    <script>
+            function somar(){
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.getElementById('txtn2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+            res.innerHTML = s
+            }
+    </script>
+    <p>
+    </p>
+    <form>
+        <fieldset>
+    <h1>
+        MULTIPLICANDO VALORES
+    </h1>
+    <input  type="number" name="txtn3" id="txtn3"> <h1>*</h1>                        
+    <input type="number" name="txtn4" id="txtn4">
+    <input type="button" value="multiplicar" onclick="multiplicar()">
+    <div id="res2">
+        Resultado
+    </div>
+        </fieldset>
+    </form>
+    <script>
+            function multiplicar(){
+            var tn3 = window.document.getElementById('txtn3')
+            var tn4 = window.document.getElementById('txtn4')
+            var res2 = window.document.getElementById('res2')
+            var n3 = Number(tn3.value)
+            var n4 = Number(tn4.value)
+            var s2 = n3 * n4
+            res2.innerHTML = s2
+            }
+    </script>
+    <p>
+    </p>
+    <form>
+        <fieldset>
+    <h1>
+        DIVIDINDO VALORES
+    </h1>
+    <input  type="number" name="txtn5" id="txtn5"> <h1>/</h1>                        
+    <input type="number" name="txtn6" id="txtn6">
+    <input type="button" value="dividir" onclick="dividir()">
+    <div id="res3">
+        Resultado
+    </div>
+        </fieldset>
+    </form>
+    <script>
+            function dividir(){
+            var tn5 = window.document.getElementById('txtn5')
+            var tn6 = window.document.getElementById('txtn6')
+            var res3 = window.document.getElementById('res3')
+            var n5 = Number(tn5.value)
+            var n6 = Number(tn6.value)
+            var s3 = n5/n6
+            res3.innerHTML = s3
+            }
+            </script>
+<p>
+</p>
+<form>
+    <fieldset>
+            <h1>
+                SUBTRAINDO VALORES
+            </h1>
+            <input  type="number" name="txtn7" id="txtn7"> <h1>-</h1>                        
+            <input type="number" name="txtn8" id="txtn8">
+            <input type="button" value="subtrair" onclick="subtrair()">
+            <div id="res4">
+                Resultado
+            </div>
+    </fieldset>
+</form>
+            <script>
+                    function subtrair(){
+                    var tn7 = window.document.getElementById('txtn7')
+                    var tn8 = window.document.getElementById('txtn8')
+                    var res4 = window.document.getElementById('res4')
+                    var n7 = Number(tn7.value)
+                    var n8 = Number(tn8.value)
+                    var s4 = n7-n8
+                    res4.innerHTML = s4
+                    }
+                    </script>
+                    
+</body>
+</html>

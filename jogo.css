@@ -1,0 +1,30 @@
+body{
+    background-image: url(./img/espaço3.gif);
+    background-size: 555px;
+    text-align: center;
+}
+.geral{
+    background-color: rgb(21, 21, 21);
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%, -80%);
+padding: 35px;
+border-radius: 35px;
+color:rgba(0,255,255,1);
+
+}
+button{
+    background-color: black;
+    color: rgba(0,255,255,1);
+    text-align: center;
+}
+input{
+    background-color: black;
+    color: rgba(0,255,255,1);
+    text-align: center;
+}
+a{
+    color: rgba(0,255,255,1);
+}
+

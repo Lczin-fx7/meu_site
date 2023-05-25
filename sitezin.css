@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+    background-color: rgb(31, 31, 31);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 10px;
+}
+
+.content{
+    width: 160vh;
+    height: 50vh;
+    background: rgb(255, 0, 0);
+    box-shadow: 2px 2px 0 rgb(0, 0, 0);
+    padding: 30px 30px;
+    border-radius: 40px 0;
+    margin: 20px 20px 20px 0;
+    color: rgb(0, 0, 0);
+}
+
+.navbar{
+    width: 200px;
+    padding: 30px;
+    background-color: black;
+}
+
+.navbar ul{
+    list-style: none;
+
+}
+.navbar ul li{
+    border-radius: 10px 0px;
+    background-color: rgb(255, 0, 0);
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.navbar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, p{
+    margin-bottom: 15px;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer{
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    width: 100%;
+    margin-top: 29%;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+}
+img{
+    width: 800px;
+}
